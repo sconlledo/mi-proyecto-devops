@@ -46,16 +46,16 @@ app.post("/calcular", (req: Request, res: Response) => {
 
     let resultado = 0;
     switch (operacion) {
-      case "suma":
+      case "add":
         resultado = suma(Number(a), Number(b));
         break;
-      case "resta":
+      case "min":
         resultado = resta(Number(a), Number(b));
         break;
-      case "multiplicacion":
+      case "multi":
         resultado = multiplicacion(Number(a), Number(b));
         break;
-      case "division":
+      case "div":
         resultado = division(Number(a), Number(b));
         break;
       default:
