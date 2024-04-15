@@ -52,7 +52,7 @@ app.post("/calcular", (req: Request, res: Response) => {
       case "min":
         resultado = resta(Number(a), Number(b));
         break;
-      case "multi":
+      case "mul":
         resultado = multiplicacion(Number(a), Number(b));
         break;
       case "div":
